@@ -10,7 +10,7 @@ const Navbar = ({ search, setSearch }) => {
   const totalCount = cart?.reduce((acc, item) => acc + item.quantity, 0);
 
   return (
-    <nav className="sticky top-0 z-50 bg-white shadow-sm border-b px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-4">
+    <nav className="sticky top-0 z-50 bg-white shadow-sm border-b px-6 py-4 flex flex-row items-center justify-between gap-4">
       <Link href="/" className="text-xl font-medium cursor-pointer">
         Home
       </Link>
